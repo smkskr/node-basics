@@ -1,0 +1,23 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "Node JS Simple Server App",
+  "main": "server.js",
+  "scripts": {
+    "dev":"nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "smkskr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
